@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(tests)
-    test.select do |test| 
+    tests.select do |test| 
       test.split('').sort == @word test.split('').sort }
     end
     
