@@ -9,6 +9,5 @@ class Anagram
     tests.select do |test|
       test.split('').sort == @word.split('').sort
     end
-    
   end
 end
